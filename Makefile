@@ -57,7 +57,8 @@ RM = rm -rf
 CP = cp
 
 # Flasher utility options
-NRFUTIL = adafruit-nrfutil
+#NRFUTIL = adafruit-nrfutil
+NRFUTIL = /Users/carrino/Library/Arduino15/packages/adafruit/hardware/nrf52/0.24.0/tools/adafruit-nrfutil/macos/adafruit-nrfutil
 NRFJPROG = nrfjprog
 FLASHER ?= nrfjprog
 PYOCD ?= pyocd
