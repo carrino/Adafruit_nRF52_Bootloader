@@ -14,7 +14,11 @@
 #define CFG_UF2_FAMILY_BOOT_ID    0xd663823c
 
 #define CFG_UF2_NUM_BLOCKS        0x10109     // just under 32MB
-#define CFG_UF2_FLASH_SIZE        (1024*1024) // 1 MB
+#ifdef CHIPSET_NRF52833
+  #define CFG_UF2_FLASH_SIZE        (512*1024) // 512 KB
+#else
+  #define CFG_UF2_FLASH_SIZE        (1024*1024) // 1 MB
+#endif
 
 // Application Address Space
 #define USER_FLASH_START          MBR_SIZE // skip MBR included in SD hex
