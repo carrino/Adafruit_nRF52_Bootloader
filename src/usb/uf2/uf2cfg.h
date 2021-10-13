@@ -14,10 +14,10 @@
 #define CFG_UF2_FAMILY_BOOT_ID    0xd663823c
 
 #define CFG_UF2_NUM_BLOCKS        0x10109     // just under 32MB
-#ifdef CHIPSET_NRF52833
-  #define CFG_UF2_FLASH_SIZE        (512*1024) // 512 KB
+#if defined(NRF52833_XXAA)
+    #define CFG_UF2_FLASH_SIZE        0x80000 // 512 kB
 #else
-  #define CFG_UF2_FLASH_SIZE        (1024*1024) // 1 MB
+    #define CFG_UF2_FLASH_SIZE        (1024*1024) // 1 MB
 #endif
 
 // Application Address Space
