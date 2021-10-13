@@ -24,7 +24,6 @@
 
 #ifndef _TECHDISC_NRF52833_H
 #define _TECHDISC_NRF52833_H
-#define CHIPSET_NRF52833
 
 #define _PINNUM(port, pin)    ((port)*32 + (pin))
 
