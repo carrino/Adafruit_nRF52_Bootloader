@@ -57,7 +57,7 @@
 //------------- UF2 -------------//
 #define UF2_PRODUCT_NAME      "Tech Disc nRF52833"
 #define UF2_VOLUME_LABEL      "DISC833BOOT"
-#define UF2_BOARD_ID          "nRF52833-Techdisc-rev1"
+#define UF2_BOARD_ID          "nRF52833-TechDisc-rev1"
 #define UF2_INDEX_URL         "https://throwlog.com"
 
 #endif // _TECHDISC_NRF52833_H
