@@ -1,7 +1,7 @@
 /*
  * The MIT License (MIT)
  *
- * Copyright (c) 2018 Ha Thach for Adafruit Industries
+ * Copyright (c) 2020 Pierre Constantineau
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -43,20 +43,20 @@
 //--------------------------------------------------------------------+
 // BLE OTA
 //--------------------------------------------------------------------+
-#define BLEDIS_MANUFACTURER   "Throw Log"
-#define BLEDIS_MODEL          "Tech Disc nRF52833"
+#define BLEDIS_MANUFACTURER   "TechDisc"
+#define BLEDIS_MODEL          "TechDisc nRF52833"
 
 //--------------------------------------------------------------------+
-// USB
+// USB PID from openmoko:
+// PR https://github.com/openmoko/openmoko-usb-oui/pull/34
 //--------------------------------------------------------------------+
-#define USB_DESC_VID           0x239A
-#define USB_DESC_UF2_PID       0x0029
-#define USB_DESC_CDC_ONLY_PID  0x002A
+#define USB_DESC_VID           0x1d50
+#define USB_DESC_UF2_PID       0x616f
+#define USB_DESC_CDC_ONLY_PID  0x616f
 
-//------------- UF2 -------------//
-#define UF2_PRODUCT_NAME      "Tech Disc nRF52833"
-#define UF2_VOLUME_LABEL      "DISC833BOOT"
-#define UF2_BOARD_ID          "nRF52833-TechDisc-rev1"
-#define UF2_INDEX_URL         "https://throwlog.com"
+#define UF2_PRODUCT_NAME  "TechDisc"
+#define UF2_VOLUME_LABEL  "TECHDISC"
+#define UF2_BOARD_ID      "nRF52833-TechDisc-v1"
+#define UF2_INDEX_URL     "https://techdisc.com"
 
 #endif // _TECHDISC_NRF52833_H

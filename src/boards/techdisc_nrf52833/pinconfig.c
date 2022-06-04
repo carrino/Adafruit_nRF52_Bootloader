@@ -8,10 +8,10 @@ const uint32_t bootloaderConfig[] =
   CFG_MAGIC0, CFG_MAGIC1,                       // magic
   5, 100,                                       // used entries, total entries
 
-  204, 0x80000,                                 // FLASH_BYTES = 512K
-  205, 0x20000,                                 // RAM_BYTES = 128K
+  204, 0x80000,                                 // FLASH_BYTES
+  205, 0x20000,                                 // RAM_BYTES
   208, (USB_DESC_VID << 16) | USB_DESC_UF2_PID, // BOOTLOADER_BOARD_ID = USB VID+PID, used for verification when updating bootloader via uf2
-  209, 0xada52840,                              // UF2_FAMILY = 0xada52840
+  209, 0x621e937a,                              // UF2_FAMILY = 0x621e937a
   210, 0x20,                                    // PINS_PORT_SIZE = PA_32
 
   0, 0, 0, 0, 0, 0, 0, 0

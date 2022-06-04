@@ -43,8 +43,8 @@
 //--------------------------------------------------------------------+
 // BLE OTA
 //--------------------------------------------------------------------+
-#define BLEDIS_MANUFACTURER   "Throw Log"
-#define BLEDIS_MODEL          "Tech Disc nRF52840"
+#define BLEDIS_MANUFACTURER   "TechDisc"
+#define BLEDIS_MODEL          "TechDisc nRF52840"
 
 //--------------------------------------------------------------------+
 // USB
@@ -54,9 +54,9 @@
 #define USB_DESC_CDC_ONLY_PID  0x002A
 
 //------------- UF2 -------------//
-#define UF2_PRODUCT_NAME      "Tech Disc nRF52840"
-#define UF2_VOLUME_LABEL      "DISC840BOOT"
-#define UF2_BOARD_ID          "nRF52840-Techdisc-rev1"
-#define UF2_INDEX_URL         "https://throwlog.com"
+#define UF2_PRODUCT_NAME      "TechDisc nRF52840"
+#define UF2_VOLUME_LABEL      "TECHDISC"
+#define UF2_BOARD_ID          "nRF52840-Techdisc-v1"
+#define UF2_INDEX_URL         "https://techdisc.com"
 
 #endif // _TECHDISC_NRF52840_H
